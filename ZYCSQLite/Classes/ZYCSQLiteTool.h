@@ -13,4 +13,7 @@
 + (BOOL)deal:(NSString *)sql uid:(NSString *)uid;
 
 
+//返回值是字典组成的数组
++ (NSMutableArray<NSMutableDictionary *>*)querySql:(NSString *)sql uid:(NSString *)uid;
+
 @end
